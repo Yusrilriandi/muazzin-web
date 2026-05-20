@@ -3,55 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mu'azzin - Pengingat Salat Desktop</title>
+  <title>Mu'azzin - Pengingat Salat Desktop Terpercaya</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: 'Poppins', sans-serif; background: #050814; color: white; }
+    body { 
+      font-family: 'Poppins', sans-serif; 
+      background: #050814; 
+      color: white; 
+      overflow-y: auto; /* Memastikan halaman bisa di-scroll */
+    }
   </style>
 </head>
-<body class="min-h-screen flex flex-col justify-center items-center text-center p-6 relative overflow-hidden">
+<body class="w-full relative selection:bg-green-500 selection:text-black py-16 px-4 md:px-8">
   
-  <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-green-600 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 pointer-events-none"></div>
-  <div class="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-emerald-600 rounded-full mix-blend-multiply filter blur-[128px] opacity-20 pointer-events-none"></div>
+  <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-green-600 rounded-full mix-blend-multiply filter blur-[140px] opacity-10 pointer-events-none"></div>
+  <div class="absolute top-[40%] right-[-10%] w-[500px] h-[500px] bg-emerald-600 rounded-full mix-blend-multiply filter blur-[140px] opacity-10 pointer-events-none"></div>
 
-  <div class="z-10 max-w-3xl mt-8">
+  <div class="max-w-4xl mx-auto flex flex-col items-center text-center">
     
-    <img src="icon-app.jpg" alt="Logo Muazzin" class="mx-auto w-28 h-28 mb-8 rounded-3xl shadow-[0_10px_30px_rgba(74,222,128,0.2)] border-2 border-gray-700/50 object-cover transition-transform transform hover:scale-105">
-    
-    <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-tight text-white">
-      Mu'azzin
-    </h1>
-    
-    <p class="text-lg md:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl mx-auto">
-      Hadirkan ketenangan di tengah padatnya kesibukan layar Anda. Mu'azzin adalah asisten pengingat salat elegan untuk Windows yang berjalan halus di latar belakang, memastikan Anda tidak pernah tertinggal panggilan-Nya di mana pun Anda berada.
-    </p>
-
-    <div class="bg-gray-800/40 border border-gray-700/50 rounded-2xl p-6 mb-10 max-w-xl mx-auto backdrop-blur-sm shadow-lg text-left relative overflow-hidden">
-      <div class="absolute left-0 top-0 bottom-0 w-1 bg-green-500"></div>
+    <header class="mb-12">
+      <img src="icon-app.jpg" alt="Logo Muazzin" class="mx-auto w-28 h-28 mb-6 rounded-3xl shadow-[0_10px_40px_rgba(74,222,128,0.15)] border border-gray-700/50 object-cover transition-transform transform hover:scale-105 duration-300">
       
-      <p class="text-emerald-400 font-medium italic mb-2 text-[15px] md:text-base">
-        Abdullah bin Mas’ud bertanya kepada Nabi ﷺ, "Amal apakah yang paling dicintai Allah 'Azza Wa Jalla?"
+      <h1 class="text-5xl md:text-7xl font-bold mb-4 tracking-tight text-white bg-gradient-to-r from-white via-gray-200 to-green-400 bg-clip-text text-transparent">
+        Mu'azzin
+      </h1>
+      <p class="text-xs uppercase tracking-widest font-semibold text-emerald-400 bg-emerald-500/10 px-4 py-1.5 rounded-full inline-block mb-6 border border-emerald-500/20">
+        Aplikasi Desktop Berbasis Open-Source
       </p>
-      <p class="text-gray-200 text-[15px] md:text-base">
-        Nabi ﷺ menjawab: <span class="font-bold text-white tracking-wide">"Shalat pada waktunya."</span>
-      </p>
-      <p class="text-xs text-gray-500 mt-3 font-medium uppercase tracking-wider">— HR. Bukhari & Muslim</p>
-    </div>
+    </header>
 
-    <a href="https://github.com/Yusrilriandi/adzan-app/releases/download/v2.0.0/Muazzin-Setup-2.0.0.exe" class="inline-flex items-center gap-3 px-8 py-4 bg-green-500 hover:bg-green-400 text-black font-bold rounded-full transition-all transform hover:scale-105 hover:shadow-[0_0_20px_rgba(34,197,94,0.4)]">
-      <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-      Download untuk Windows
-    </a>
-    
-    <div class="mt-6 flex justify-center gap-4 text-sm text-gray-500 font-medium mb-12">
-      <span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-green-500"></span> Versi 2.0.0</span>
-      <span>•</span>
-      <span>~65 MB</span>
-      <span>•</span>
-      <span>100% Gratis</span>
-    </div>
+    <section class="max-w-2xl mx-auto mb-14 space-y-8">
+      <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+        Menjaga waktu ibadah di balik padatnya kesibukan depan layar kini jauh lebih mudah. <strong class="text-white font-semibold">Mu'azzin</strong> hadir sebagai asisten pribadi yang senantiasa melantunkan panggilan suci langsung dari komputer Windows Anda, tepat waktu, tenang, dan tanpa gangguan.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+        <div class="bg-gray-800/20 border border-gray-700/40 rounded-2xl p-6 backdrop-blur-sm relative overflow-hidden">
+          <div class="absolute left-0 top-0 bottom-0 w-1 bg-emerald-500"></div>
+          <span class="text-xs text-emerald-400 font-bold uppercase tracking-wider block mb-2">Al-Qur'an Surat An-Nisa: 103</span>
+          <p class="text-gray-300 text-[15px] italic leading-relaxed">
+            "Sesungguhnya salat itu adalah fardhu yang ditentukan waktunya atas orang-orang yang beriman."
+          </p>
+        </div>
+
+        <div class="bg-gray-800/20 border border-gray-700/40 rounded-2xl p-6 backdrop-blur-sm relative overflow-hidden">
+          <div class="absolute left-0 top-0 bottom-0 w-1 bg-green-500"></div>
+          <span class="text-xs text-green-400 font-bold uppercase tracking-wider block mb-2">Hadis Riwayat Bukhari & Muslim</span>
+          <p class="text-gray-300 text-[15px] leading-relaxed">
+            Dari Abdullah bin Mas’ud, Rasulullah ﷺ bersabda bahwa amal yang paling dicintai oleh Allah adalah <span class="text-white font-semibold">"Salat tepat pada waktunya."</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-16">
+      <a href="https://github.com/Yusrilriandi/adzan-app/releases/download/v2.0.0/Mu.azzin-Setup-2.0.0.exe" class="inline-flex items-center gap-4 px-10 py-5 bg-green-500 hover:bg-green-400 text-black font-bold text-lg rounded-full transition-all transform hover:scale-105 hover:shadow-[0_0_35px_rgba(34,197,94,0.35)] duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+        Download untuk Windows
+      </a>
+
+      <div class="mt-4 text-sm text-gray-500 font-medium flex flex-wrap justify-center gap-y-2 gap-x-6">
+        <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-green-500"></span> Versi Terbaru v2.0.0</span>
+        <span>•</span>
+        <span>Ukuran Ringan (~65 MB)</span>
+        <span>•</span>
+        <span class="text-emerald-400 font-semibold bg-emerald-500/10 px-2.5 py-0.5 rounded-md">100% Gratis & Bebas Iklan</span>
+      </div>
+    </section>
+
+    <section class="w-full border-t border-gray-800/60 pt-16 text-left max-w-3xl">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-10 tracking-tight">Kenapa Memilih Mu'azzin?</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-5 bg-gray-800/10 border border-gray-800/80 rounded-xl">
+          <div class="w-10 h-10 bg-green-500/10 rounded-lg flex items-center justify-center mb-4 border border-green-500/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+          </div>
+          <h3 class="font-semibold text-white mb-2 text-base">Sesuai Daerah Anda</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Jadwal otomatis disesuaikan secara akurat berdasarkan kota pilihan Anda, atau koordinat lokasi kustom.</p>
+        </div>
+
+        <div class="p-5 bg-gray-800/10 border border-gray-800/80 rounded-xl">
+          <div class="w-10 h-10 bg-green-500/10 rounded-lg flex items-center justify-center mb-4 border border-green-500/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
+          </div>
+          <h3 class="font-semibold text-white mb-2 text-base">Audio Adzan Kustom</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Bebas mengganti suara adzan bawaan dengan file rekaman muazin (.mp3) favorit Anda sendiri.</p>
+        </div>
+
+        <div class="p-5 bg-gray-800/10 border border-gray-800/80 rounded-xl">
+          <div class="w-10 h-10 bg-green-500/10 rounded-lg flex items-center justify-center mb-4 border border-green-500/20">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+          </div>
+          <h3 class="font-semibold text-white mb-2 text-base">Ringan & Kalem</h3>
+          <p class="text-xs text-gray-400 leading-relaxed">Berjalan tenang di background tray Windows Anda tanpa memakan banyak memori RAM PC/laptop.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-20 border-t border-gray-800/30 pt-6 text-xs text-gray-600 w-full">
+      <p>&copy; 2026 Mu'azzin Project. Dikembangkan dengan sepenuh hati demi kenyamanan ibadah bersama.</p>
+    </footer>
 
   </div>
+
 </body>
 </html>
