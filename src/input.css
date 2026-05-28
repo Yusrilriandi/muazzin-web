@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@source "../index.html";
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #050814;
+  color: white;
+  overflow-y: auto;
+}
